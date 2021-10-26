@@ -1,7 +1,7 @@
 # Celsius-Fahrenheit-Converter
 
 <div align="center">
-<img src="https://es.m.wikipedia.org/wiki/Archivo:Fahrenheit_Celsius_scales.svg" wdith="315" height="170" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Fahrenheit_Celsius_scales.svg" wdith="315" height="170" />
 </div>
 
 
