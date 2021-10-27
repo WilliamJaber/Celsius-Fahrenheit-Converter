@@ -1,11 +1,11 @@
 import sys
 
-print('Welcome to your Celsius and Fahrenheit Converter')
+print('\nWelcome to your Celsius and Fahrenheit Converter.')
 
 def main():
     '''Converter of Celsius to Fahrenheit and viceversa '''
     while True:
-        converter_type = input('Do you want to convert Celsius or Fahrenheit? Insert (C or F):\n> ')
+        converter_type = input('\nDo you want to convert Celsius or Fahrenheit? Insert (C or F):\n> ')
         if converter_type.lower() not in ['c', 'f']:
             print('invalid Input')
             new_conversion()
@@ -17,14 +17,14 @@ def main():
             new_conversion()
 
 def celsius_to_fahrenheit():
-    temp_degree = int(input('Insert temperature:\n> '))
+    temp_degree = int(input('\nInsert temperature:\n> '))
     result_in_F = (temp_degree * 9/5) + 32
-    print(f'{result_in_F:.2f}°F')
+    print(f'\n{temp_degree}°C equals to {result_in_F:.2f}°F')
 
 def fahrenheit_to_celsius():
-    temp_degree = int(input('Insert temperature:\n> '))
+    temp_degree = int(input('\nInsert temperature:\n> '))
     result_in_C = (temp_degree - 32) * 5/9
-    print(f'{result_in_C:.2f}°C')
+    print(f'\n{temp_degree}°F equals to {result_in_C:.2f}°C')
 
 def new_conversion():
     '''Handles new conversion option'''
