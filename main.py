@@ -1,9 +1,9 @@
 import sys
 
-print('Welcome to your Celsius and Fahrenheit Convertor')
+print('Welcome to your Celsius and Fahrenheit Converter')
 
 def main():
-    '''Convertor of Celsius to Fahrenheit and viceversa '''
+    '''Converter of Celsius to Fahrenheit and viceversa '''
 
     while True:
         converter_type = input('Do you want to convert Celsius or Fahrenheit? Insert (C or F):\n> ')
