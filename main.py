@@ -4,13 +4,11 @@ print('Welcome to your Celsius and Fahrenheit Converter')
 
 def main():
     '''Converter of Celsius to Fahrenheit and viceversa '''
-
     while True:
         converter_type = input('Do you want to convert Celsius or Fahrenheit? Insert (C or F):\n> ')
         if converter_type.lower() not in ['c', 'f']:
             print('invalid Input')
             new_conversion()
-
         if converter_type[0].lower() == 'c':
             celsius_to_fahrenheit()
             new_conversion()
