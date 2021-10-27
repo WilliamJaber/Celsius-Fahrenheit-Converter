@@ -27,7 +27,7 @@ def fahrenheit_to_celsius():
     print(f'{result_in_C:.2f}°C')
 
 def new_conversion():
-    """Handles new conversion option"""
+    '''Handles new conversion option'''
     while True:
         option = input('\nDo you want make a new conversion? (yes or no): ')
         if option not in ['yes', 'no']:
