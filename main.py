@@ -3,7 +3,7 @@ import sys
 print('\nWelcome to your Celsius and Fahrenheit Converter.')
 
 def main():
-    '''Converter of Celsius to Fahrenheit and viceversa '''
+    """Converter of Celsius to Fahrenheit and viceversa"""
     while True:
         converter_type = input('\nDo you want to convert Celsius or Fahrenheit? Insert (C or F):\n> ')
         if converter_type.lower() not in ['c', 'f']:
@@ -27,7 +27,7 @@ def fahrenheit_to_celsius():
     print(f'\n{temp_degree}°F equals to {result_in_C:.2f}°C')
 
 def new_conversion():
-    '''Handles new conversion option'''
+    """Handles new conversion option."""
     while True:
         option = input('\nDo you want make a new conversion? (yes or no): ')
         if option not in ['yes', 'no']:
